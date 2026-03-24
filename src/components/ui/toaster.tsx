@@ -14,7 +14,7 @@ export const toaster = createToaster({
   pauseOnPageIdle: true,
 })
 
-export export default function Toaster() {
+export default function Toaster() {
   return (
     <Portal>
       <ChakraToaster toaster={toaster} insetInline={{ mdDown: "4" }}>
