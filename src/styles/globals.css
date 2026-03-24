@@ -1,0 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background: white !important;
+  color: #1b1919;
+  font-family: "DM Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+* {
+  color-scheme: light only;
+}
