@@ -2,7 +2,6 @@
 
 import { Box, Flex, Grid, Heading, HStack, Text, VStack } from "@chakra-ui/react"
 import Image from "next/image"
-import Link from "next/link"
 import { useState } from "react"
 
 const testimonials = [

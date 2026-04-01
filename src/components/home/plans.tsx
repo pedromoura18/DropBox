@@ -1,6 +1,6 @@
 "use client"
 
-import { Box, Flex, HStack, Text, VStack } from "@chakra-ui/react"
+import { Box, Flex, HStack, Text, } from "@chakra-ui/react"
 import { useState } from "react"
 import PlanCard from "@/components/home/plan-card"
 
