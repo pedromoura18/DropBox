@@ -2,6 +2,7 @@
 
 import { Box, Button, Grid, Heading, HStack, Text, Link as ChakraLink, VStack
 } from "@chakra-ui/react"
+import Link from "next/link"
 import NextLink from "next/link"
 import { FaArrowRight } from "react-icons/fa"
 
@@ -86,19 +87,21 @@ export default function Hero() {
           <FaArrowRight />
         </Button>
 
-        <HStack
-          as="a"
-         
-          gap="6px"
-          fontSize="14px"
-          fontWeight="semibold"
-          color="white"
-          style={{ textDecoration: "underline", whiteSpace: "nowrap" }}
-        >
+        <Link href="#planos" style={{ textDecoration: "none" }}>
+          <HStack
+            gap="6px"
+            fontSize="14px"
+            fontWeight="semibold"
+            color="white"
+            textDecoration="underline"
+            whiteSpace="nowrap"
+            >
           <Text>ou compre agora</Text>
-          <FaArrowRight />
-        </HStack>
+           <FaArrowRight />
+           </HStack>
+         </Link>
       </VStack>
+      
 
       <Box
         display={{ base: "none", lg: "flex" }}

@@ -2,6 +2,7 @@
 
 import { Box, Flex, Grid, Heading, HStack, Text, VStack } from "@chakra-ui/react"
 import Image from "next/image"
+import Link from "next/link"
 import { useState } from "react"
 
 const testimonials = [
@@ -92,21 +93,32 @@ export default function SocialProof() {
         Mais de 500 mil equipes usam o Dropbox
       </Heading>
 
-      <HStack
-        as="a"
+       <a
         href="#"
+        style={{ textDecoration: "none" }}
+      >
+       <HStack
         gap="6px"
         fontSize="sm"
         fontWeight="700"
         color="white"
         textDecoration="underline"
-        style={{ whiteSpace: "nowrap" }}
+        whiteSpace="nowrap"
       >
-        Saiba mais sobre nossos clientes
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" style={{ flexShrink: 0 }}>
-          <path d="M5 12h14M12 5l7 7-7 7" />
+      Saiba mais sobre nossos clientes
+       <svg
+        width="14"
+        height="14"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="white"
+        strokeWidth="2.5"
+        style={{ flexShrink: 0 }}
+         >  
+         <path d="M5 12h14M12 5l7 7-7 7" />
         </svg>
-      </HStack>
+       </HStack>
+      </a>
 
       <Box w="100%" maxW="1400px" mx="auto" px={{ base: 5, md: 10 }}>
         <Grid
@@ -136,22 +148,34 @@ export default function SocialProof() {
               {t.quote}
             </Text>
 
-            <HStack
-              as="a"
+           <a
               href={t.link}
               target="_blank"
-              gap="6px"
-              fontSize="sm"
-              fontWeight="700"
-              color="white"
-              textDecoration="underline"
-              style={{ whiteSpace: "nowrap" }}
-            >
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+             >
+          <HStack
+             gap="6px"
+             fontSize="sm"
+             fontWeight="700"
+             color="white"
+             textDecoration="underline"
+             whiteSpace="nowrap"
+             >
               Leia a história completa
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" style={{ flexShrink: 0 }}>
-                <path d="M5 12h14M12 5l7 7-7 7" />
-              </svg>
-            </HStack>
+            <svg
+             width="14"
+             height="14"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="white"
+             strokeWidth="2.5"
+             style={{ flexShrink: 0 }}
+             >
+           <path d="M5 12h14M12 5l7 7-7 7" />
+           </svg>
+          </HStack>
+           </a>
 
             <Box
               position="relative"
