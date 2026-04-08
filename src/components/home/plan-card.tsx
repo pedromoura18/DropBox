@@ -28,9 +28,6 @@ function FeatureIcon({ type }: { type: string }) {
   return <FaClock style={style} />
 }
 
-<<<<<<< HEAD
-export default function PlanCard({ audience, name, price, priceDetail, featured, primaryLabel, showSecondary, features }: any) {
-=======
 type Feature = {
   icon: string;
   text: string;
@@ -57,7 +54,6 @@ export default function PlanCard({
   showSecondary,
   features
 }: PlanCardProps) {
->>>>>>> origin/main
   return (
     <Box
       position="relative"
@@ -142,11 +138,7 @@ export default function PlanCard({
       <Box borderTopWidth={1} borderColor="gray.100" my={4} />
 
       <VStack align="start" gap={3}>
-<<<<<<< HEAD
-        {features?.map((feat: any, i: number) => (
-=======
         {features?.map((feat: Feature, i: number) => (
->>>>>>> origin/main
           <Flex key={i} align="start" gap={2.5}>
             <Box mt={0.5} flexShrink={0}>
               <FeatureIcon type={feat.icon} />

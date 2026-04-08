@@ -22,23 +22,13 @@ export default function Header() {
           <HStack gap={2.5}>
             <HStack
               bg="#0061ff"
-<<<<<<< HEAD
-              w="34px"
-              h="34px"
-              borderRadius="6px"
-=======
               w="40px"
               h="40px"
->>>>>>> origin/main
               align="center"
               justify="center"
               flexShrink={0}
             >
-<<<<<<< HEAD
-              <svg width="20" height="20" viewBox="0 0 40 40" fill="none">
-=======
               <svg width="28" height="30" viewBox="0 0 40 40" fill="none">
->>>>>>> origin/main
                 <path d="M10 6L20 12.5L10 19L0 12.5Z" fill="white" />
                 <path d="M30 6L40 12.5L30 19L20 12.5Z" fill="white" />
                 <path d="M0 25.5L10 19L20 25.5L10 32Z" fill="white" />
@@ -46,12 +36,8 @@ export default function Header() {
                 <path d="M10 33.5L20 27L30 33.5L20 40Z" fill="white" />
               </svg>
             </HStack>
-<<<<<<< HEAD
-            <Text fontSize="22px" fontWeight="600" color="#1b1919" letterSpacing="-0.3px">
-=======
             <Text fontSize="22px" fontWeight="1000" color="#1b1919" letterSpacing="-0.3px"
              >
->>>>>>> origin/main
               Dropbox
             </Text>
           </HStack>

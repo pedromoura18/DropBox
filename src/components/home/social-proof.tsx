@@ -92,31 +92,16 @@ export default function SocialProof() {
         Mais de 500 mil equipes usam o Dropbox
       </Heading>
 
-<<<<<<< HEAD
-      <HStack
-        as="a"
-        href="#"
-=======
        <a
         href="#"
         style={{ textDecoration: "none" }}
       >
        <HStack
->>>>>>> origin/main
         gap="6px"
         fontSize="sm"
         fontWeight="700"
         color="white"
         textDecoration="underline"
-<<<<<<< HEAD
-        style={{ whiteSpace: "nowrap" }}
-      >
-        Saiba mais sobre nossos clientes
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" style={{ flexShrink: 0 }}>
-          <path d="M5 12h14M12 5l7 7-7 7" />
-        </svg>
-      </HStack>
-=======
         whiteSpace="nowrap"
       >
       Saiba mais sobre nossos clientes
@@ -133,7 +118,6 @@ export default function SocialProof() {
         </svg>
        </HStack>
       </a>
->>>>>>> origin/main
 
       <Box w="100%" maxW="1400px" mx="auto" px={{ base: 5, md: 10 }}>
         <Grid
@@ -163,24 +147,6 @@ export default function SocialProof() {
               {t.quote}
             </Text>
 
-<<<<<<< HEAD
-            <HStack
-              as="a"
-              href={t.link}
-              target="_blank"
-              gap="6px"
-              fontSize="sm"
-              fontWeight="700"
-              color="white"
-              textDecoration="underline"
-              style={{ whiteSpace: "nowrap" }}
-            >
-              Leia a história completa
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" style={{ flexShrink: 0 }}>
-                <path d="M5 12h14M12 5l7 7-7 7" />
-              </svg>
-            </HStack>
-=======
            <a
               href={t.link}
               target="_blank"
@@ -209,7 +175,6 @@ export default function SocialProof() {
            </svg>
           </HStack>
            </a>
->>>>>>> origin/main
 
             <Box
               position="relative"

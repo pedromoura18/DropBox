@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import { Box, Heading, HStack, Link as ChakraLink, Text, VStack } from "@chakra-ui/react"
-=======
 import { Box, Heading, HStack, Link as ChakraLink, VStack } from "@chakra-ui/react"
->>>>>>> origin/main
 import NextLink from "next/link"
 import Image from "next/image"
 import SupportCard from "@/components/home/support-card"
